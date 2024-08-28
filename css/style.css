@@ -32,7 +32,8 @@ body{
   height: 50px;
   outline: black;
   padding: 10px;
-  margin: 10px 10px 20px 10px;
+  margin: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
   border: black 0.2rem solid;
 }
@@ -102,3 +103,8 @@ text-align: center;
   }
 }
 
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+}
