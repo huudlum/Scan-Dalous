@@ -4,29 +4,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Scan-dalous</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <meta name="A QR Code generator" content="">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+<div class="container">
+  <h2>Scan-dalous QR Code Generator</h2>
+  <label>
+    <input type="text" placeholder="Enter text or URL" id="qrText">
+  </label>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+  <div id="qrBox">
+      <img src="" id="qrImg">
+      <p>Right-Click or press and hold to save your QR code</p>
+  </div>
+
+  <button id="generateBtn" onclick="generateQR()">Generate QR Code</button>
+  <button id="refreshBtn" onclick="window.location.reload()">Start Again</button>
+
+</div>
+
+<script src="js/app.js"></script>
 
 </body>
 
