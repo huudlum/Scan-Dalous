@@ -12,20 +12,23 @@
 
 <body>
 <div class="container">
-  <h2>Scan-dalous QR Code Generator</h2>
+  <h2>Scan-dalous </h2><br/> <h3> A QR Code Generator</h3>
   <label>
     <input type="text" placeholder="Enter text or URL" id="qrText">
   </label>
 
   <div id="qrBox">
-      <img src="" id="qrImg">
-      <p>Right-Click or press and hold to save your QR code</p>
+    <img src="" id="qrImg">
   </div>
 
   <button id="generateBtn" onclick="generateQR()">Generate QR Code</button>
+  <button id="downloadBtn"><a download="QR.png" id="qrDownload">Download</a></button>
   <button id="refreshBtn" onclick="window.location.reload()">Start Again</button>
 
 </div>
+
+<footer class="footer"> Created by <a href="https://danhobbs.glitch.me"> Dan Hobbs</a>.
+  Hosted by <a href="https://glitch.com"> Glitch</a>. </footer>
 
 <script src="js/app.js"></script>
 
