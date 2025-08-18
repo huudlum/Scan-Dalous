@@ -1,5 +1,3 @@
----
-
 **Scan‑Dalous** is built using **pure front-end technologies** with no frameworks or build tools, making it a clean and accessible example of a client-side web app. Here's a breakdown of the skills demonstrated:
 
 ### ✅ HTML5
