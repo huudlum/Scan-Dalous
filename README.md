@@ -1,12 +1,14 @@
-**Scan‑Dalous** is built using **pure front-end technologies** with no frameworks or build tools, making it a clean and accessible example of a client-side web app. Here's a breakdown of the skills demonstrated:
+# Scandalous 📷 
 
-### ✅ HTML5
+Scandalous is built using **pure front-end technologies** with no frameworks or build tools, making it a clean and accessible example of a client-side web app. Here's a breakdown of the skills demonstrated:
+
+## ✅ HTML5
 
 * Structured a responsive single-page application using semantic HTML
 * Created user interface components: input field, buttons, image container, and footer
 * Implemented accessibility-friendly elements like `label` and descriptive placeholders
 
-### ✅ CSS3
+## ✅ CSS3
 
 * Designed a clean, modern interface with custom styling
 * Utilized:
@@ -16,7 +18,7 @@
   * **Responsive design** using media queries for mobile compatibility
 * Styled conditionally visible elements using `max-height` transitions (e.g. `#qrBox`, `#downloadBtn`)
 
-### ✅ JavaScript (Vanilla JS)
+## ✅ JavaScript (Vanilla JS)
 
 * Used **DOM manipulation** to interact with user input and update the interface dynamically
 * Implemented:
@@ -31,12 +33,12 @@
   * Reset functionality via `window.location.reload()`
 * No external libraries or frameworks—showcases strong grasp of core JS concepts
 
-### ✅ API Integration
+## ✅ API Integration
 
 * Connected to a third-party **QR Code API** (`qrserver.com`) to offload generation logic
 * Handled dynamic URL creation and response management without server-side code
 
-### ✅ UX/UI Principles
+## ✅ UX/UI Principles
 
 * Interactive feedback for errors (input shaking)
 * Hidden buttons and image areas that appear only when needed
